@@ -1,0 +1,2 @@
+Experiment,Supervised steps,Physics-informed steps,Glucose RMSE,Glucose MAE,Glucose Relative L2,MAPE all 17 (%),MAPE 14 changed (%),Unchanged parameters
+SBINN 4000-step training,1000,3000,0.7519307182869781,0.35354430386664154,0.006690063220731826,23.322417957064324,28.320078947863813,"a1, C1, C2"
