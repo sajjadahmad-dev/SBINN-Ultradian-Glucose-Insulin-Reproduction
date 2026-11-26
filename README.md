@@ -47,25 +47,6 @@ The six physiological states are:
 | h2 | Second delayed insulin-action state |
 | h3 | Third delayed insulin-action state |
 
-The system can be represented as:
-
-\[
-\frac{d\mathbf{y}}{dt}
-=
-\mathbf{f}(\mathbf{y}, \boldsymbol{\theta}, t)
-\]
-
-where:
-
-- \(\mathbf{y} = [I_p, I_i, G, h_1, h_2, h_3]\) represents the physiological states.
-- \(\boldsymbol{\theta}\) represents biological model parameters.
-- \(t\) represents time.
-- \(\mathbf{f}\) represents the nonlinear biological dynamics.
-
-A neural network approximates the six time-dependent states, and automatic differentiation is used to compute their temporal derivatives.
-
-The training objective combines observational constraints with residuals of the governing equations.
-
 ---
 
 ## 3. Methodology
@@ -419,4 +400,4 @@ Research Interests: Machine Learning, Deep Learning, Scientific Machine Learning
 
 **GitHub:** https://github.com/sajjadahmad-dev
 
-**Research Portfolio:** https://sajjad-ahmad-ai.vercel.app/
+**Portfolio:** https://sajjad-ahmad-ai.vercel.app/
